@@ -28,3 +28,8 @@
 #display-none {
     display: none;
 }
+#strawberry {
+    float: left;
+    margin: 10px;
+    
+}

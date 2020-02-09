@@ -1,0 +1,44 @@
+body {
+
+    background-color: darkorange;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+    background-color: skyblue;
+    font-size: 60px;
+    color: red;
+}
+
+.box-width {
+background-color: royalblue;
+transition: width 2s;
+}
+
+.box-width:hover{
+
+    width: 300px;
+
+}
+
+.box-height {
+
+    background-color: slateblue;
+    transition: 1.5s;
+}
+
+.box-height:hover {
+    height: 300px;
+}
+
+.box-width-height {
+    background-color: lime;
+    transition: height 2s, width 1s;
+}
+
+.box-width-height:hover {
+    height: 300px;
+     width: 300px;
+}

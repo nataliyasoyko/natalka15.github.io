@@ -1,0 +1,8 @@
+#background-img {
+    background-color: salmon;
+    background-image: url(../img/truskawka.jpg);
+    background-repeat: repeat-y;
+    background-position: top center;
+
+    background-attachment: fixed;
+}
