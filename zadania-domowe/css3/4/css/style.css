@@ -1,23 +1,23 @@
-#send:hover {
-    background-color: aqua;
-    color: orange;
-}
-#name:focus {
-    border: 5px solid green;
-    background-color: darkcyan;
-    color: orangered;
+[title] {
+    color: greenyellow;
 }
 
-.customer:first-child {
-    color: darkblue;
+[title="About me"] {
+    color: fuchsia
+    
+}
+[title~= "title"] {
+    color: purple;
 }
 
-.customer:nth-child(4) 
-{
-    background-color: "green";
+[title*="Con"] {
+    background-color: seagreen;
 }
 
-.customer:last-child(2)
-{
-    color: black;
+[title^="Section"] {
+color: gold;
+}
+
+[title$="skills"] {
+    background-color: sienna;
 }
