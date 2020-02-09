@@ -21,3 +21,10 @@
 {
     color: black;
 }
+
+.customer:nth-child( 3n -1)
+{
+    color: darkgreen;
+    background-color: peru;
+
+}
