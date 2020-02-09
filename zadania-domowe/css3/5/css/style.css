@@ -1,0 +1,14 @@
+p {
+    background-color: springgreen !important;
+}
+
+p#paragraph {
+    background-color: lavender;
+}
+p.paragraph {
+    background-color: tomato;
+}
+
+p{
+    background-color: yellowgreen;
+}

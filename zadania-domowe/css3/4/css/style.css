@@ -21,3 +21,10 @@ color: gold;
 [title$="skills"] {
     background-color: sienna;
 }
+nav > ul > li > a[title*="oll"] {
+background-color: teal;
+}
+
+nav > ul > li > a[title*="oll"]:hover {
+    background-color: khaki;
+    }
