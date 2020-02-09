@@ -1,0 +1,30 @@
+#p1 {
+
+    background-color: springgreen;
+}
+#p2 {
+    background-color: teal;
+    color: yellow;
+}
+
+#inline-elements p{
+    display: inline;
+}
+
+#inline-p1 {
+    background-color: limegreen;
+}
+#inline-p2 {
+    background-color: indigo;
+}
+#inline-block-elements li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    background-color: mediumorchid;
+}
+#display-none {
+    display: none;
+}
