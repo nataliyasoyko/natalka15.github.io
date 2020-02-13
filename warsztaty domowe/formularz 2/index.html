@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<header>
+    <h1>A Simple Form</h1>
+    <h2>Form Fundamentals</h2>
+</header>
+<section>
+    <h3>Customer Info</h3>
+
+<form autocomplete="on">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" autofocus required> <br><br>
+    <label for="tel">Telephone:</label>
+    <input type="tel" id="tel" name="tel"  placeholder="Enter your phone number"  required pattern="[-]{3}[0-9]{10}" title="1-234-567-8910"> 
+    <br><br>
+    <label for="email">E-mail address:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required multiple>
+    <br><br>
+    <label for="book name">Book name</label><br><br>
+    <input type="text" id="book name" name="book name" list="books">
+    <datalist id="books">
+        <option>Angels and Demons</option>
+        <option>The Master and Margarita</option>
+        <option>Pharaon</option>
+        <option>1922</option>
+        <option>Green Mile</option>
+   </datalist>
+
+    <label for="quantity">Quantity (Maximum 5)</label>
+    <input type="number" min="1" max="5">
+
+</form>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+#relative {
+    width: 330px;
+    height: 330px;
+    background-color: white;
+    padding: 5px;
+}
+
+.square {
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 5px;
+}
+
+.circle {
+    width: 43px;
+    height: 43px;
+    position: absolute;  
+    border-radius: 50%;
+    border: solid 0.5px black;
+    left: 30px;
+    top:30px;
+    
+}
+ 
+div[title="red"] {
+    background-color: red;
+}
+div[title="blue"] {
+    background-color: blue;
+}
+div[title="green"] {
+    background-color: green;
+}
+div[title="yellow"]{
+    background-color: yellow;
+}
+div[title="black"] {
+    background-color: black;
+}
+div[title="brown"] {
+    background-color: darkgoldenrod;
+}
+div[title="violet"] {
+    background-color: rgb(177, 11, 177);
+}
+div[title="grey"] {
+    background-color: grey;
+}
+div[title="pink"] {
+    background-color: pink;
+}
+#first {
+    float: left;
+
+}
+#second {
+    
+    float: left;
+}
+#third {
+    
+    left: 220px;
+   
+}
+#fourth {
+    clear: both;
+    float: left;
+}
+
+#fifth {
+    float: left;
+}
+#sixth {
+    left: 220px;
+    top: 5px;
+   
+}
+#seventh {
+    clear: both;
+    float: left;
+    
+}
+#eighth {
+    
+    float: left;
+}
+#ninth {
+    left: 220px;
+    top: 10px;
+}
+
+
