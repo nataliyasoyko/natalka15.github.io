@@ -18,5 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 700px;
-    align-self: flex-start;
+}
+.ordered-item {
+    align-self: flex-end;
 }
