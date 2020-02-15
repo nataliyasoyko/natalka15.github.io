@@ -24,31 +24,31 @@
     
 }
  
-div[title="red"] {
+div[name="red"] {
     background-color: red;
 }
-div[title="blue"] {
+div[name="blue"] {
     background-color: blue;
 }
-div[title="green"] {
+div li[name="green"] {
     background-color: green;
 }
-div[title="yellow"]{
+div[name="yellow"]{
     background-color: yellow;
 }
-div[title="black"] {
+div[name="black"] {
     background-color: black;
 }
-div[title="brown"] {
+div[name="brown"] {
     background-color: darkgoldenrod;
 }
-div[title="violet"] {
+div[name="violet"] {
     background-color: rgb(177, 11, 177);
 }
-div[title="grey"] {
+div[name="grey"] {
     background-color: grey;
 }
-div[title="pink"] {
+div[name="pink"] {
     background-color: pink;
 }
 #first {

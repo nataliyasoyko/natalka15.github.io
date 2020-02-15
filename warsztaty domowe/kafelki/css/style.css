@@ -1,0 +1,49 @@
+#main{
+    width: 500px;
+    height: 700px;
+    background-color: darkgrey;
+    position: relative;
+}
+
+#tile{
+    display: block;
+    font-size: 40px;
+    font-family: "lato";
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+    height: 80px;
+    background-color: #edcf96; 
+    margin-bottom: 1px;
+    position: relative;
+}
+#one{
+    width: 54%;
+    height: 150px;
+    background-color: #7a66e6;
+    display: inline-block;
+    position: relative;
+}
+#two{
+    width: 44%;
+    height: 75px;
+    background-color: #659ee3;
+    display: inline-block;
+    position: absolute;
+    margin-left: 2%;
+}
+#three{
+    width: 54%;
+    height: 63px;
+    background-color: #b18eec;
+    display: block;
+    position: absolute;
+}
+#four{
+    width: 44%;
+    height: 138px;
+    background-color: #2a6fc2;
+    display: inline-block;
+    position: absolute;
+}
+

@@ -1,94 +1,48 @@
-#relative {
-    width: 330px;
-    height: 330px;
-    background-color: white;
-    padding: 5px;
+h1{
+    font-size: 25px;
+    color: darkblue;
 }
 
-.square {
-
-    width: 100px;
-    height: 100px;
-    position: relative;
-    margin: 5px;
+h2{
+    font-size: 19px;
+    color: rgba(0, 0, 139, 0.40);
+    font-style: italic;
 }
 
-.circle {
-    width: 43px;
-    height: 43px;
-    position: absolute;  
-    border-radius: 50%;
-    border: solid 0.5px black;
-    left: 30px;
-    top:30px;
-    
-}
- 
-div[title="red"] {
-    background-color: red;
-}
-div[title="blue"] {
-    background-color: blue;
-}
-div[title="green"] {
-    background-color: green;
-}
-div[title="yellow"]{
-    background-color: yellow;
-}
-div[title="black"] {
-    background-color: black;
-}
-div[title="brown"] {
-    background-color: darkgoldenrod;
-}
-div[title="violet"] {
-    background-color: rgb(177, 11, 177);
-}
-div[title="grey"] {
-    background-color: grey;
-}
-div[title="pink"] {
-    background-color: pink;
-}
-#first {
-    float: left;
-
-}
-#second {
-    
-    float: left;
-}
-#third {
-    
-    left: 220px;
-   
-}
-#fourth {
-    clear: both;
-    float: left;
+h3{
+    font-size: 15px;  
 }
 
-#fifth {
-    float: left;
-}
-#sixth {
-    left: 220px;
-    top: 5px;
-   
-}
-#seventh {
-    clear: both;
-    float: left;
-    
-}
-#eighth {
-    
-    float: left;
-}
-#ninth {
-    left: 220px;
-    top: 10px;
+div[title="customer"]{
+    position: static;
+    background-color: darkcyan;
+    width: 450px;
+    border: solid;
+    border-color: darkorchid;
+    padding: 2px;
+    margin: 2px;
+    padding-left: 10px;
 }
 
+div[title="books"]{
+    position: static;
+    background-color: darkseagreen;
+    width: 450px;
+    border: solid;
+    border-color: darkviolet;
+    padding: 2px;
+    margin: 2px;
+    padding-left: 10px;
+}
 
+div[title="send"]{
+    position: static;
+    background-color: lightgreen;
+    width: 450px;
+    border: solid;
+    border-color: greenyellow;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    padding-left: 10px;
+}
