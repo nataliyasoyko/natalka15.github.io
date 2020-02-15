@@ -5,16 +5,19 @@
     border:1px solid darkcyan;
     padding: 10px;
     margin: 5px;
-    flex-basis: 13%;
+    flex-basis: 28%;
+    max-width: 220px;
+    overflow: hidden;
 }
 .flex-item:nth-last-of-type(odd) {
     background-color: rgb(69, 231, 118);
-
+    max-height: 150px;
 }
 
 .container{
     border: 2px darkmagenta dashed;
     display: flex;
-    /* justify-content: space-around; */
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 700px;
+    align-content: center;
 }
