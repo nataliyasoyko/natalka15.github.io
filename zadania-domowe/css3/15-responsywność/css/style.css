@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    font-size: 16px;
+    width: 25%;
+    float: left;
+    border: 10px solid greenyellow;
+    background-color: khaki;
+    padding: 15px;
+}
+@media (max-width: 992px) {
+    .box{
+        width: 50%;
+    }
+}
+@media (max-width: 768px){
+    .box{
+        width: 100%;
+        border: 5px solid blue;
+        padding: 5px;
+    }
+}
