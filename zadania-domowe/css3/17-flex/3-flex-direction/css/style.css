@@ -5,14 +5,15 @@
     border:1px solid darkcyan;
     padding: 10px;
     margin: 5px;
-    flex-basis: 10%;
+    max-width: 200px;
 }
 .flex-item:nth-last-of-type(odd) {
     background-color: rgb(218, 181, 181);
-    flex-basis: 20%;
+
 }
 
 .container{
     border: 2px darkmagenta dashed;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row-reverse;
 }
