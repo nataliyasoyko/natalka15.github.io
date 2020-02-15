@@ -21,5 +21,6 @@
     height: 700px;
     /* align-content: center; */
     /* align-content: flex-end; */
-    align-content: flex-start;
+    /* align-content: flex-start; */
+    align-content: space-between;
 }
