@@ -16,11 +16,11 @@
 
     <div title="customer"> <h3>Customer Info</h3>
 
-<form autocomplete="on">
+<form  autocomplete="on">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" placeholder="Enter your name" autofocus required> <br><br>
     <label for="tel">Telephone:</label>
-    <input type="tel" id="tel" name="tel"  placeholder="Enter your phone number"  required pattern="[-]{3}[0-9]{11}" title="1-234-567-8910"> 
+    <input type="tel" id="tel" name="tel"  placeholder="1-234-567-8910"  required pattern="[-]{3}[0-9]{11}"> 
     <br><br>
     <label for="email">E-mail address:</label>
     <input type="email" id="email" name="email" placeholder="Enter your email" required multiple>
@@ -46,8 +46,10 @@
 </form>
 </div>
 <br><br>
+<form action="https://formspree.io/xwkoypdk" method="POST">
 <div title="send">
 <input type="submit" value="send">
+</form>
 </div>
 </section>
 
