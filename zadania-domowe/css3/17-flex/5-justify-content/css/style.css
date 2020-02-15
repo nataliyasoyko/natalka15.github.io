@@ -15,5 +15,5 @@
 .container{
     border: 2px darkmagenta dashed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
