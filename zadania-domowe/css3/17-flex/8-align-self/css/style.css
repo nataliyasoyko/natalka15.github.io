@@ -20,5 +20,8 @@
     height: 700px;
 }
 .ordered-item {
-    align-self: flex-end;
+    /* align-self: flex-end; */
+    /* align-self: flex-start; */
+    /* align-self: baseline; */
+    align-self: stretch;
 }
