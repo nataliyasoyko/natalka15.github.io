@@ -23,5 +23,7 @@
     /* align-self: flex-end; */
     /* align-self: flex-start; */
     /* align-self: baseline; */
-    align-self: stretch;
+    /* align-self: stretch; */
+    align-self: center;
+   
 }
