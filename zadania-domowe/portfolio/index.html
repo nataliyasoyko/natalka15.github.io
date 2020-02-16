@@ -10,21 +10,70 @@
 <body>
    <header>
        <h1>FRONT END DEVELOPER</h1>
+       <hr>
        <p>HTML <span>•</span> CSS <span>•</span> JavaScript</p>
-       <div class="button"><a  href="omnie" class="more">Dowiedz się więcej</a></div>
+       <a class="button" href="#aboutme" class="more">Dowiedz się więcej</a>
    </header>
    
    <nav>
        <ul>
-       <li class="navi"><a href="">O MNIE</a></li>
-       <li class="navi"><a href="">PORTFOLIO</a></li>
-       <li class="navi"><a href="">KONTAKT</a></li>
+       <li class="navi"><a href="#aboutme">O MNIE</a></li>
+       <li class="navi"><a href="#portfolio">PORTFOLIO</a></li>
+       <li class="navi"><a href="#contact">KONTAKT</a></li>
     </ul>
    </nav>
 
-   <section>
-       
+   <section class="me">
+       <h2 class="headline" id="aboutme">o mnie</h2>
+       <hr>
+        <img class="photo" src="img/about.jpg">
+        <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi esse rerum odit exercitationem accusamus illo, perferendis praesentium molestiae, ab minus distinctio reprehenderit itaque doloribus. Placeat esse optio iure aliquid dolor.
+        </p> <br><br>
+        <p>
+                Natus non aut corrupti. Veritatis dignissimos beatae optio necessitatibus! Quaerat quasi enim, quos quas voluptate exercitationem, earum quia eum pariatur numquam, tempora ducimus quis? Mollitia, eveniet ratione! Nam, modi iste?
+        </p>
+        <a class="button" href="#portfolio" class="more">moje portfolio</a>
    </section>
-   
+   <section class="me" id="portfolio">
+    <h2 class="headline">portfolio</h2>
+    <hr>
+      <div class=container>  
+        <img src="portfolio/photo-1.jpg" alt="tu obrazek">
+        <img src="portfolio/photo-2.jpg">
+        <img src="portfolio/photo-3.jpg">
+        <img src="portfolio/photo-4.jpg">
+        <img src="portfolio/photo-5.jpg">
+        <img src="portfolio/photo-6.jpg">
+        <img src="portfolio/photo-7.jpg">
+        <img src="portfolio/photo-8.jpg">
+        <img src="portfolio/photo-9.jpg">
+        <img src="portfolio/photo-10.jpg">
+        <img src="portfolio/photo-11.jpg">
+        <img src="portfolio/photo-12.jpg">
+    </div>
+    </section>
+   <section class="me" id="contact">
+    <h2 class="headline">kontakt</h2>
+    <hr>
+    <form action="">
+        <input type="text" placeholder="Imię">
+        <input type="email" placeholder="Email"> <br><br>
+        <textarea class="textarea" placeholder="Wiadomość"></textarea> <br><br>
+         <input type="submit" value="wyślij wiadomość"> 
+        <br><!--class="button" class="more"-->
+        <br>
+</form>
+<div class="social-media">
+        <a href=""><i class="fab fa-facebook-square fa-3x" class="icon"></i></a>
+        <i class="fab fa-twitter fa-3x" class="icon"></i>
+        <i class="fab fa-instagram fa-3x" class="icon"></i>
+        <i class="fab fa-youtube fa-3x" class="icon"></i>
+</div>
+   </section>
+   <footer>
+    <p>Copiright &copy; Akademia 108. Szkoła Programowania</p>
+
+   </footer>
 </body>
 </html>

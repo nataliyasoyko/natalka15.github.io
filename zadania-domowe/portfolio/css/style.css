@@ -1,7 +1,12 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
 header{
 background-image: url(../img/header.jpg);
-height: 750px;
-box-sizing: border-box;
+height: auto;
+padding-bottom: 70px;
 padding-top: 330px;
 text-align: center;
 }
@@ -16,28 +21,41 @@ p{
 span{
     color: #007bff;
 }
-
- header div > a {
+hr{
+    max-width: 45px;
+    background-color: darkblue;
+    height: 1px;
+    width: 70px;
+}
+.more{  
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    font-size: 13px;
+}
+
+    .button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: transparent;
+    font-size: 13px;
     box-sizing: border-box;
     border: 2px solid #007bff;
     width: 160px;
     height: 38px;
     padding: 8px;
-    font-size: 13px;
-    transition-property: color border;
+    transition-property:border;
     transition-duration: 0.5s;
     transition-timing-function: linear;
  }
- header div > a:hover{
-     color: rgb(48, 26, 148);
-     border: 4px dashed darkblue;   
- }
+    
+.button:hover{
+border: 4px dashed darkblue;
+}
     
 nav {
-  background-color: #007bff;
+    background-color: #007bff;
     height: 60px;
     width: 100%;
     box-sizing: border-box; 
@@ -54,7 +72,99 @@ li{
 
 nav li > a {  
    color: white; 
-   text-decoration: none;  
-} 
+   text-decoration: none;
+}  
+.me{
+    width:100%;
+    height: auto;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+}
 
+.headline{
+    text-transform: uppercase;
+    font-size: 25px; 
+    
+}
+.photo{
+    border-radius: 50%; 
+    margin-top: 90px;
+}
+#portfolio{
+    background-color:  #f2f1ed;
+    width: 100%;
+
+}
+.container{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+      justify-content: space-between;
+  }  
+  /* .wraper{ 
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      max-width: 100%;
+  }*/
+  img{
+  max-width: 24%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 1s;
+  /* transition-property: width; 
+  transition-duration: 0.5s;
+  transition-timing-function: linear;*/
+  }
+  
+  img:hover{ 
+      transform: scale(1.5);
+  }
+
+    /* formularz */
+
+    form{ 
+        padding-top: 80px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+    .textarea{
+        width: 320px;
+        height: 80px;
+    }
+    textarea::placehoder{
+        font-family: "Open-size", sans-serif;
+    }
+    
+    .me .social-media{
+        margin-top: 5px;
+    }
+
+     .fab{   
+       color: #163780;
+    }
+    .me .social-media i{
+        display: inline-block;
+        margin: 0 1em;
+    }
+
+    footer{
+      
+    width: 100%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f1ed;
+    }
+
+    footer p{
+        text-align: center;       
+    }
+  
 
