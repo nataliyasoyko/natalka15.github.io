@@ -35,7 +35,7 @@ div[title="books"]{
     padding-left: 10px;
 }
 
-div[title="send"]{
+.send{
     position: static;
     background-color: lightgreen;
     width: 450px;
