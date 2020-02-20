@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+* {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: white;
+    text-align: center;  
+    box-sizing: border-box; 
+}
+.container {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rosybrown;
+}
+.header { 
+    height: 12%;
+    width: auto;
+    background-color: red;
+    padding: 17px;
+    flex-basis: 100%;
+}
+.left .right .section{
+    height: auto;
+}
+.left {  
+    width: 20%; 
+    background-color: green;
+}
+.section {
+    flex-basis: 60%;
+    padding-bottom: 100px;
+}
+.right {
+    width: 20%; 
+    background-color: pink;
+}
+.footer {
+    height: 12%;
+    width: auto;
+    background-color: darkviolet;
+    padding: 17px;
+    flex-basis: 100%;
+}
