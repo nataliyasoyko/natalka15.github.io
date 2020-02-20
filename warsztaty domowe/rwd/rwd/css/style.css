@@ -7,11 +7,13 @@ html, body {
     vertical-align: baseline;
     height: 100%
 }
-*{
+
+* {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     box-sizing: border-box;
 }
+
 .container {
     background-image: url(../obrazy/man-1.jpg);
     background-size: 100%;
@@ -22,6 +24,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
 }
+
 .box {
     padding-top: 20px;
     color:white;
@@ -29,6 +32,7 @@ html, body {
     height: 200px;
     margin-left: 100px;
 }
+
 .box p {
     margin: 0;
     margin-bottom: 40px;
@@ -39,21 +43,20 @@ html, body {
     font-size: 40px;
 }
 
-
 @media (min-width: 992px) and (max-width: 1170px) {
     .container {
-       background-image: url(../obrazy/man-2.jpg);
-       background-size: 70%; 
-       background-repeat: no-repeat; 
-       flex-direction: row-reverse;
-       align-items: center;
-       justify-content: center;
+        background-image: url(../obrazy/man-2.jpg);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
     }
-    
-    .box{
+    .box {
         font-size: 25px;
         margin-left: 400px;
-    } 
+
+    }
     .box p {
         margin: 0;
         margin-bottom: 10px;
@@ -61,16 +64,15 @@ html, body {
     .box p.bigger {
         font-size: inherit;
     }
+    
 }
-
 @media (max-width: 991px) {
     .container {
         background-image: url(../obrazy/man-1.jpg);
         background-size: 50%; 
-        background-repeat: no-repeat;  
+        background-repeat: no-repeat;
     }
-    
-    .box{
+    .box {
         color: black;
         font-size: 16px;
         display: flex;
@@ -78,7 +80,7 @@ html, body {
         flex-direction: column;
         margin-left: 0;
         margin-top: 500px;
-    } 
+    }
     .box p {
         margin: 0;
         margin-bottom: 10px;
