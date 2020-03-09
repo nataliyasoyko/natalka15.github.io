@@ -1,0 +1,19 @@
+.zmienne {
+  font-family: sans-serif;
+  border: lightblue 2px solid; }
+  .zmienne ul {
+    background-color: violet; }
+    .zmienne ul li {
+      font-weight: 800; }
+      .zmienne ul li a {
+        background-color: lightblue; }
+        .zmienne ul li a:hover {
+          color: pink; }
+
+.jakas-sekcja {
+  background-image: url(https://thumbs.dreamstime.com/z/%C5%9Bliczna-jednoro%C5%BCec-twarz-dziecka-s-grafika-dla-koszulek-99991142.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  box-sizing: border-box; }

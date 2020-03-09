@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box; }
+
+section {
+  height: 700px;
+  background-image: url(../img/background.png); }
+
+nav a {
+  display: inline-block; }
+
+.navbar .navbar-brand {
+  color: white; }
+  .navbar .navbar-brand .fa-landmark {
+    color: yellow; }
+
+.navbar #mainHeader {
+  font-size: 40px;
+  font-weight: bold; }
+
+.navbar .contact {
+  font-size: 15px; }
+
+.navbar .obraz {
+  margin: 0px 0px 0px 0px;
+  padding-right: 0px;
+  transform: rotate(40deg); }
+
+form {
+  margin-top: 200px;
+  width: 320px; }
+  form header h1 {
+    color: white;
+    font-size: 22px; }
+    form header h1 span {
+      color: yellow; }
+  form fieldset {
+    height: auto;
+    padding: 15px;
+    background-color: #001d8a; }
+    form fieldset h3 {
+      color: white;
+      font-size: 18px; }
+    form fieldset input:not(.btn-warning) {
+      width: 100%; }
+    form fieldset textarea {
+      width: 100%;
+      resize: none; }
+    form fieldset .btn-warning {
+      padding: 12px;
+      border-radius: 3px;
+      font-weight: bold; }
+
+footer {
+  background-color: #292929;
+  padding: 50px; }
+  footer i {
+    font-size: 40px;
+    color: yellow; }
+  footer span {
+    color: white; }

@@ -1,0 +1,33 @@
+body{
+    color: lightslategray;
+
+}
+
+hr{
+    width: 170px;
+}
+
+.container { 
+    height: auto;
+    display: flex; 
+} 
+.row{
+   width:100%; 
+}
+.d-flex{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   align-items: center;
+} 
+
+
+i{
+    font-size: 60px;
+    color: orange;
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 90px; 
+    height: 90px;
+}
+
+

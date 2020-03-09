@@ -1,0 +1,14 @@
+#main {
+    width: 900px;
+    height: 140px;
+    background-color: rgb(182, 235, 219);
+    border: aquamarine solid 2px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+#wyliczenie{
+    width: 80px;
+    height: 30px;
+    background-color: chartreuse;
+}

@@ -1,0 +1,80 @@
+@import "zmienne";
+
+body{
+    box-sizing: border-box;
+}
+section{
+    height: 700px;
+    background-image: url(../img/background.png);   
+}
+nav {
+    a {
+        display: inline-block;
+    }
+}
+
+    .navbar {
+        .navbar-brand {   
+          color: $font-color;
+            .fa-landmark {
+              color: $font-color-yellow;
+             }
+        } 
+        #mainHeader {
+          font-size: 40px;
+          font-weight: bold;
+        }
+        .contact{
+            font-size: 15px;
+        }
+        .obraz{
+            margin: 0px 0px 0px 0px;
+            padding-right: 0px;
+            transform: rotate(40deg);
+        }
+    }
+    form{
+        margin-top: 200px;
+        width: 320px;
+            header h1{
+                color: $font-color;
+                font-size: 22px;
+                span{
+                    color: $font-color-yellow;
+                }
+            }
+        fieldset{
+            height: auto;
+            padding: 15px;
+            background-color: #001d8a;
+              h3{
+                  color: $font-color;
+                  font-size: 18px;
+              }
+              input:not(.btn-warning){
+                  width: 100%;
+              }
+              textarea{
+                width: 100%;
+                resize: none;
+              }
+              .btn-warning{
+                  padding: 12px;
+                  border-radius: 3px;
+                  font-weight: bold;
+              }
+        }
+    }
+
+    footer{
+        background-color: #292929;
+        padding: 50px;
+        i{
+            font-size: 40px;
+            color: $font-color-yellow;
+        }
+        span{
+            color: $font-color;
+        }
+    }
+

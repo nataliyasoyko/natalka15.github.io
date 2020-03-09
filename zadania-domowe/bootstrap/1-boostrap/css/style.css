@@ -1,0 +1,8 @@
+.container { 
+    height: auto;
+    background-color: blueviolet;
+} 
+.container-fluid {
+    height: 500px;
+    background-color: chartreuse;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz pizzy</title>
+   </head>
+<body>
+    
+<header>
+    <h1>Formularz zamówienia pizzy</h1>
+</header>
+<section>
+<form id= "pizza-order" autocomplete="on">
+    <label for="name">Name:</label>
+    <input type="text" id="name"  class="filled-in"> <br><br>
+    <label for="surname">Surame:</label>
+    <input type="text" id="surname"  class="filled-in"> <br><br>
+    <label for="street">Street:</label>
+    <input type="text" id="street" class="filled-in"> <br><br>
+    <label for="hnumber">House number</label>
+    <input type="text" id="hnumber" class="filled-in"> <br><br>
+    <label for="postCode">Post Code</label>
+    <input type="text" id="postCode" class="filled-in"> <br><br>
+    <label for="city">City</label>
+    <input type="text" id="city" class="filled-in"> <br><br>
+    <br><br>
+</div>
+    <label for="pizzas">Pizzas</label> 
+    <select name="pizzas" id="pizzas">
+        <option value="0" class="pizza">--Wybierz pizze--</option>
+        <option value="1" class="pizza">Margherita</option>
+        <option value="2" class="pizza">Hawajska</option>
+        <option value="3" class="pizza">Pepperoni</option>
+        <option value="4" class="pizza">Neapolitana</option>
+        <option value="5" class="pizza">Prosciutto</option>
+    </select>    
+     <span id="cena">0 pln</span><br>
+    <br>
+    <br>
+
+    <input type="checkbox" name="sos" id="sosPom">
+    <label for="sosy">sos pomidorowy</label>
+    <input type="checkbox" name="sos" id="sosCzos">
+    <label for="sosy">sos czosnkowy</label>
+    <br>
+    <br>
+    <input type="checkbox" name="rodo" id="rodo">
+    <label for="rodo">Zgoda na przetwarzanie danych</label>
+</div>
+<br><br>
+<input type="submit" value="Zamow" class="send" id="button">
+<ul id="errors"></ul>
+
+</form>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/1-edycja.js"></script>
+</body>
+</html>

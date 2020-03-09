@@ -1,0 +1,25 @@
+@import "zmienne";
+
+
+.zmienne{
+    font-family: $base-font-family;
+    border: $border-color $border-size;
+    ul{
+        background-color: $base-color;
+        li{
+            font-weight: 800;
+            a{
+                background-color: $border-color;
+                &:hover{
+                    color: pink;
+                }
+            }
+        }
+    }
+}
+.jakas-sekcja {
+    background-image: url(https://thumbs.dreamstime.com/z/%C5%9Bliczna-jednoro%C5%BCec-twarz-dziecka-s-grafika-dla-koszulek-99991142.jpg);
+    @include background-image;
+    height: 700px;
+    box-sizing: border-box;
+}

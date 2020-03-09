@@ -1,0 +1,67 @@
+#viewAllCalculator {
+
+    background-color: whitesmoke;
+    
+    border: 1px solid black;
+    
+    width: 40%;
+    
+    height: auto;
+    
+    margin: 0 auto;
+    
+    position: relative;
+    
+    }
+    
+    /* end głwnego elementu strony */
+    
+    #inputText {
+    
+    width: 90%;
+    
+    left: 0;
+    
+    height: 40px;
+    
+    }
+    
+    .viewAllCalculator-line {
+    
+    width: 100%;
+    
+    padding: 5px;
+    
+    text-align: center;
+    
+    }
+    
+    .btn-kal {
+    
+    width: 18%;
+    
+    padding: 5px;
+    
+    }
+    
+    .btn-kal_minus {
+    
+    width: 36%;
+    
+    padding: 5px;
+    
+    }
+    
+    .btn-kal-big {
+    
+    width: 36%;
+    
+    padding: 5px;
+    
+    }
+    
+    .btn-kal-big__two {
+    
+    position: absolute;
+    
+    }
