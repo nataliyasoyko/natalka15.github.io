@@ -1,0 +1,11 @@
+
+ .faqHeader{
+     font-size: 35px;
+ }
+ 
+ button.btn.btn-link{
+    color: red;
+}
+button.btn.btn-link:hover {
+    color: grey;
+}
