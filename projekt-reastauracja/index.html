@@ -11,20 +11,75 @@
     <link href="/css/main-baner.css" rel="stylesheet">
     <link href="/css/container.css" rel="stylesheet">
     <link href="/css/about-us.css" rel="stylesheet">
+    <link href="/css/main-navigation.css" rel="stylesheet">
 </head>
 <body>
+    <nav class="main-navigation">
+        <div class="main-navigation__inner">
+            <div class="main-navigation__logo">
+                <a href="#" class="main-navigation__logo-link">
+                    <img src="images/logo.svg" class="main-navigation__logo-image"> Polskie Smaki
+                </a>
+            </div>
+            <ul class="main-navigation__menu js-main-navigation__menu">
+                <li class="main-navigation-menu-item">
+                    <a href="#" class="main-navigation__link">
+                        Home
+                    </a>
+                </li>
+                <li class="main-navigation-menu-item">
+                    <a href="#about-us" class="main-navigation__link">
+                        O nas
+                    </a>
+                </li>
+                <li class="main-navigation-menu-item">
+                    <a href="#menu" class="main-navigation__link">
+                        Menu
+                    </a>
+                </li>
+                <li class="main-navigation-menu-item">
+                    <a href="#gallery" class="main-navigation__link">
+                        Galeria
+                    </a>
+                </li>
+                <li class="main-navigation-menu-item">
+                    <a href="#contact" class="main-navigation__link">
+                        Kontakt
+                    </a>
+                </li>
+                <li class="main-navigation-menu-item">
+                    <a href="#map" class="main-navigation__link">
+                        Jak dojechać
+                    </a>
+                </li>
+                <li class="main-navigation-menu-item">
+                    <a href="https://instagram.com" target="_blank" class="main-navigation__link">
+                        <img src="images/icons/social/instagram.svg" alt="instagram" class="main-navigation__social-icon">
+                    </a>
+                </li>
+                <li class="main-navigation-menu-item">
+                    <a href="https://facebook.com" target="_blank" class="main-navigation__link">
+                        <img src="images/icons/social/facebook.svg" alt="facebook" class="main-navigation__social-icon">
+                    </a>
+                </li>
+            </ul>
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="images/icons/navigation.svg" alt="Otwórz/zamknij nawigację" class="main-navigation__mobile-button-image">
+            </button>
+        </div>
+    </nav>
+    <script src="main-navigation.js"></script>
     <section class="main-banner">
         <a href="#about-us" class="main-banner__button">Poznaj nas lepiej</a>
     </section>
-    <div class="container">
-    <section class="about-us">
+    <div class="container" id="about-us">
+    <section class="about-us" >
         <div class="about-us__text">
             <h3 class="about-us__header">nie jesteśmy tylko restauracją</h3>
-            <p class="about-us__paragraph">Tworzymy zespół ludzi, których pasją jest dbanie o każdy detał, który składa sie na wyjątkowy wieczów spędzony u nas. Nasi kucharze kreują dania, nad których recepturą pracowali niekiedy połowę swojego życia, a tajniki swoich przepisów wynieśli z rodzinnych domów.</p>
-            <p class="about-us__paragraph">Nasi kelnerzy to ludzie z pasją, kochający tworzyć wyjątkowy klimat woół naszych gości i serwować dania z elegancją i klasą. W naszej restauracji nie zbraknie nastrojowych dzwięków, smacznego wystroju i pięknych widków z okien. To idealne miejsce, by spędzić czas z ukochaną osobą, zjeść obiad w rodzinnech atmosferze czy podziękować bliskiej osobie za to, że jest.</p>
+            <p class="about-us__paragraph">Tworzymy zespół ludzi, których pasją jest dbanie o każdy detał, który składa się na wyjątkowy wieczór spędzony u nas. Nasi kucharze kreują dania, nad których recepturą pracowali niekiedy połowę swojego życia, a tajniki swoich przepisów wynieśli z rodzinnych domów.</p>
+            <p class="about-us__paragraph">Nasi kelnerzy to ludzie z pasją, kochający tworzyć wyjątkowy klimat wokół naszych gości i serwować dania z elegancją i klasą. W naszej restauracji nie zabraknie nastrojowych dzwięków, smacznego wystroju i pięknych widoków z okien. To idealne miejsce, by spędzić czas z ukochaną osobą, zjeść obiad w rodzinnej atmosferze czy podziękować bliskiej osobie za to, że jest.</p>
         </div>
         <img class="about-us__image" src="images/about-us.jpg" alt="">
-    
     </section>
 </div>
 </body>
