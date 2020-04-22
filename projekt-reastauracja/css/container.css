@@ -4,3 +4,7 @@
     width: 1180px;
     max-width: 100%;
 }
+.container--smaller{
+    width: 940px;
+    margin: 0 auto;
+}

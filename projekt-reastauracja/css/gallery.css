@@ -11,15 +11,17 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
-.gallery__aspect-ratio{
+.gallery_aspect-ratio{
     padding-top: calc(100% * 9 / 16);
     position: relative;
 }
 .gallery__image{
-    width: 100%;
-    object-fit: cover;
-    /* position: absolute; */
+
+    position: absolute;
     left: 0;
     height: 100%;
+    width: 100%;
     top: 0; 
+    bottom: 0;
+    object-fit: cover;
 }
