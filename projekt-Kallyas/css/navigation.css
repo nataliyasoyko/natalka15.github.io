@@ -1,5 +1,6 @@
 :root{
     --main-banner-navigation-button-color: white;
+    --concept-bckg-services-color: #202b30;
 }
 .navigation{
     display: flex;
@@ -11,10 +12,9 @@
 }
 @media(max-width: 415px){
     .navigation{
-       
         flex-direction: column;
-        background-color: rgb(90, 90, 90);
-        padding: 15px 0;
+        background-color: var(--concept-bckg-services-color);
+        padding: 15px 0 5px;
         text-align: center;
     }
 }
@@ -107,7 +107,7 @@
 }}
 .navigation__item{
     list-style: none;
-    text-transform: capitalize;
+    text-transform: capitalize; 
     margin-left: 30px;
 }
 .navigation__item-link{
@@ -129,7 +129,6 @@
         width: 100px;
         background: none;
         border: none;
-        padding-top: 20px;
         align-self: flex-end;
     }
     .navigation__button-mobile-img{

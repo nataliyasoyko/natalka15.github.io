@@ -4,19 +4,16 @@
     --concept-bckg-services-color: #202b30;
 }
 .container-concept{
-    width: 880px;
+    max-width: 880px;
     margin: -40px auto 20px;
     display: flex;
     position: relative;
 }
-@media(max-width: 880px){
-    .container-concept{
-        width: 660px;
-    }
-}
+
 @media(max-width: 415px){
     .container-concept{
-        width: 300px;
+        width: calc(100% - 20px);
+        margin: -40px 10px 20px;
         display: block;
     }
 }

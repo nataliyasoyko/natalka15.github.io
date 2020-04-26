@@ -1,15 +1,20 @@
 :root{
     --button-concept-bckgColor-services-color: #fb414e;
     --concept-bckg-services-color: #202b30;
+    --service-form-color: grey;
 }
 .services{
-    width: 880px;
+    max-width: 880px;
     margin: 200px auto 100px;
 }
-@media(max-width: 768px){
+@media(max-width: 880px){
     .services{
-        width: 100%;
-    
+        margin: 150px auto 50px;
+    }
+}
+@media(max-width: 415px){
+    .services{
+        margin: 850px auto 50px;
     }
 }
 .services__header{
@@ -27,7 +32,7 @@
 .services__header-main-header, .services__header-main-header_color{
     font-size: 50px;
 }
-@media(max-width: 768px){
+@media(max-width: 880px){
     .services__header-main-header, .services__header-main-header_color{
         font-size: 40px;
     }
@@ -37,11 +42,19 @@
     margin: 20px auto;
 }
 .services__header-text{
-    width: 600px;
+    max-width: 600px;
     text-align: center;
     margin: 0 auto;
     line-height: 1.5;
+    color: var(--service-form-color);
 }
+@media(max-width: 415px){
+    .services__header-text{
+        width: calc(100% - 20px);
+        margin: 10px auto;
+        }
+}
+
 .services__description{
     display: flex;
     margin: 50px auto 20px;
@@ -57,8 +70,19 @@
     padding: 10px;
     text-align: center;
 }
+@media(max-width: 415px){
+    .services__description-item{
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
+}
+}
 .services__description-item-header{
     margin: 15px auto;
     font-size: 22px;
     font-weight: bold;
+}
+.services__description-item-text{
+    color: var(--service-form-color);
+    font-size: 14px;
 }
