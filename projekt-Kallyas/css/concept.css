@@ -1,3 +1,7 @@
+:root{
+    --main-banner-navigation-button-color: white;
+    --button-concept-bckgColor-services-color: rgb(248, 44, 44);
+}
 .container-concept{
     width: 880px;
     margin: -40px auto 20px;
@@ -20,8 +24,11 @@
     margin-left: 40px;
     padding: 30px 15px;
     background-color: rgb(105, 105, 105);
-    color: white;
+    color: var(--main-banner-navigation-button-color);
     transition: 0.3s;
+}
+.concept__description-bckg{
+    background-color: var(--button-concept-bckgColor-services-color);
 }
 @media(max-width: 415px){
     .concept__description{
@@ -31,7 +38,10 @@
     }
 }
 .concept__description:hover{
-    background-color: rgb(248, 44, 44);
+    background-color: var(--button-concept-bckgColor-services-color);
+}
+.concept__description-bckg:hover{
+    background-color: rgb(105, 105, 105);
 }
 .concept__description-icon{
     width: 40px;
@@ -42,7 +52,7 @@
 .concept__description-hr{
     width: 40px;
     margin-left: 0;
-    background-color: white;
+    background-color: var(--main-banner-navigation-button-color);
 }
 .concept__description-text{
     font-size: 14px;
