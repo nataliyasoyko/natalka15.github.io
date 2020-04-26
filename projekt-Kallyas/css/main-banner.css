@@ -1,6 +1,6 @@
 :root{
     --main-banner-navigation-button-color: white;
-    --button-concept-bckgColor-services-color: rgb(248, 44, 44);
+    --button-concept-bckgColor-services-color: #fb414e;
 }
 .container{
     height: 100vh;
@@ -61,8 +61,8 @@
 }
 @media(max-width: 768px){
     .main-banner__header{
-        font-size: 38px;
-        margin: 50px 20px;
+        font-size: 35px;
+        margin: 70px 20px 20px;
      }
 }
 @media(max-width: 415px){
