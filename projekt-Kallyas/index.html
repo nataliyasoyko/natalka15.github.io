@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,126 +8,193 @@
     <meta name="description" content="business consulting">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:400,700,900&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header-font.css">
     <link rel="stylesheet" href="css/main-banner.css">
     <link rel="stylesheet" href="css/concept.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/services.css">
-
+    <link rel="stylesheet" href="css/gallery.css">
 </head>
+
 <body>
-<div class="container">
-    <nav class="navigation container--smaller">
-        <img class="navigation__logo" src="images/logo.png" alt="logo">
-        
-        <ul class="navigation__items">
-            <li class="navigation__item"><a href="#" class="navigation__item-link">home</a></li>
-            <li class="navigation__item"><a href="services" class="navigation__item-link">services</a></li>
-            <li class="navigation__item"><a href="works" class="navigation__item-link">works</a></li>
-            <li class="navigation__item"><a href="contact" class="navigation__item-link">contact</a></li>
-        </ul>
-        
-        <button class="navigation__button-mobile js-navigation__button-mobile"><img class="navigation__button-mobile-img" src="images/navigation.svg" alt="Otwórz/zamknij nawigację"></button>
-        <div class="js-navigation-mobile">
-        <div class="navigation__mobile-back">
-            <div class="navigation__mobile-img-back">
-                <img src="images/mobile-menu-back.png" class="navigation__mobile-img-back">
+    <div class="container">
+        <nav class="navigation container--smaller">
+            <img class="navigation__logo" src="images/logo.png" alt="logo">
+
+            <ul class="navigation__items">
+                <li class="navigation__item"><a href="#" class="navigation__item-link">home</a></li>
+                <li class="navigation__item"><a href="services" class="navigation__item-link">services</a></li>
+                <li class="navigation__item"><a href="works" class="navigation__item-link">works</a></li>
+                <li class="navigation__item"><a href="contact" class="navigation__item-link">contact</a></li>
+            </ul>
+
+            <button class="navigation__button-mobile js-navigation__button-mobile"><img
+                    class="navigation__button-mobile-img" src="images/navigation.svg"
+                    alt="Otwórz/zamknij nawigację"></button>
+            <div class="js-navigation-mobile">
+                <div class="navigation__mobile-back">
+                    <div class="navigation__mobile-img-back">
+                        <img src="images/mobile-menu-back.png" alt="wróć do strony głównej"
+                            class="navigation__mobile-img-back">
+                    </div>
+                    <div class="navigation__mobile--link-back">
+                        <a href="#" class="navigation__mobile-link-back">
+                            back
+                        </a>
+                    </div>
+                </div>
+                <ul class="navigation__items-mobile">
+                    <li class="navigation__item-mobile navigation__item-mobile-home"><a href="#"
+                            class="navigation__item-link-mobile navigation__item-link-mobile-home">home</a></li>
+                    <li class="navigation__item-mobile"><a href="#services"
+                            class="navigation__item-link-mobile">services</a></li>
+                    <li class="navigation__item-mobile"><a href="works" class="navigation__item-link-mobile">works</a>
+                    </li>
+                    <li class="navigation__item-mobile"><a href="about-us" class="navigation__item-link-mobile">about
+                            us</a></li>
+                    <li class="navigation__item-mobile"><a href="contact"
+                            class="navigation__item-link-mobile">contact</a></li>
+                </ul>
             </div>
-            <div class="navigation__mobile--link-back">
-                <a href="#" class="navigation__mobile-link-back">
-                back
-                </a>
+        </nav>
+        <script src="js/navigation.js"></script>
+        <section class="main-banner">
+            <div class="main-banner__inner container--smaller">
+                <h1 class="main-banner__header header-font">helping business and companies innovate and transform
+                </h1>
+                <div class="main-banner__container-text">
+                    <p class="main-banner__text header-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aspernatur quaerat fugit et, veritatis quod tempora consequatur nemo aut alias obcaecati
+                        architecto. quaerat fugit et, veritatis quod tempora consequatur nemo aut alias obcaecati
+                        architecto.
+                    </p>
+                </div>
+                <button class="main-banner__button main-banner__button-bckg">Start now</button>
+                <button class="main-banner__button">Our services</button>
             </div>
-        </div>
-        <ul class="navigation__items-mobile">
-            <li class="navigation__item-mobile navigation__item-mobile-home"><a href="#" class="navigation__item-link-mobile navigation__item-link-mobile-home">home</a></li>
-            <li class="navigation__item-mobile"><a href="#services" class="navigation__item-link-mobile">services</a></li>
-            <li class="navigation__item-mobile"><a href="works" class="navigation__item-link-mobile">works</a></li>
-            <li class="navigation__item-mobile"><a href="about-us" class="navigation__item-link-mobile">about us</a></li>
-            <li class="navigation__item-mobile"><a href="contact" class="navigation__item-link-mobile">contact</a></li>
-        </ul>
-    </div>
-    </nav>
-    <script src="js/navigation.js"></script>
-    <section class="main-banner">
-        <div class="main-banner__inner container--smaller">
-            <h1 class="main-banner__header header-font">helping business and companies innovate and transform
-            </h1>
-            <div class="main-banner__container-text">
-                <p class="main-banner__text header-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat fugit et, veritatis quod tempora consequatur nemo aut alias obcaecati architecto. quaerat fugit et, veritatis quod tempora consequatur nemo aut alias obcaecati architecto.
-                </p>
-            </div>
-            <button class="main-banner__button main-banner__button-bckg">Start now</button>
-            <button class="main-banner__button">Our services</button>
-        </div>
-    </section>
-    <section class="container-concept container--smaller"> 
+        </section>
+        <section class="container-concept container--smaller">
             <div class="concept__description concept__description-bckg">
                 <img class="concept__description-icon" src="images/tiles/content-concept-strategy.svg" alt="">
-                <h5 class="concept__description-header">content concept & strategy</h5>  
+                <h5 class="concept__description-header">content concept & strategy</h5>
                 <hr class="concept__description-hr">
-                <p class="concept__description-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p> 
-            </div> 
-        
+                <p class="concept__description-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
+            </div>
+
             <div class="concept__description">
                 <img class="concept__description-icon" src="images/tiles/design-conscepts.svg" alt="">
-            
-                <h5 class="concept__description-header">design & strategy</h5>  
+
+                <h5 class="concept__description-header">design & strategy</h5>
                 <hr class="concept__description-hr">
-                <p class="concept__description-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p> 
-            </div> 
+                <p class="concept__description-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
+            </div>
             <div class="concept__description">
                 <img class="concept__description-icon" src="images/tiles/seo-marketing.svg" alt="">
-            
-                <h5 class="concept__description-header">SEO & marketing solutions</h5>  
+
+                <h5 class="concept__description-header">SEO & marketing solutions</h5>
                 <hr class="concept__description-hr">
-                <p class="concept__description-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p> 
-            </div> 
+                <p class="concept__description-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Distinctio, maiores suscipit. Fuga earum dolorem repudiandae accusantium.</p>
+            </div>
         </section>
-</div>
-<section class="container--smaller services">
-    <header class="services__header">
-        <div class="services__header-subheader header-font" id="services">services</div>
-        <h2 class="services__header-main-header header-font">Best services for <span class="services__header-main-header_color header-font">Visual Perfection</span></h2>
-        <p class="services__header-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere expedita quod illo atque libero ex, dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </header>
+    </div>
+    <section class="container--smaller services">
+        <header class="services__header">
+            <div class="services__header-subheader header-font" id="services">services</div>
+            <h2 class="services__header-main-header header-font">Best services for <span
+                    class="services__header-main-header_color header-font">Visual Perfection</span></h2>
+            <p class="services__header-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere expedita
+                quod illo atque libero ex, dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </header>
         <div class="services__description">
             <div class="services__description-item">
-                <img src="images/icons/strategy.png">
+                <img src="images/icons/strategy.png" alt="">
                 <h6 class="services__description-item-header header-font">Strategy</h6>
-                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta ratione et vel architecto alias perferendis!</p>
+                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta
+                    ratione et vel architecto alias perferendis!</p>
             </div>
             <div class="services__description-item">
-                <img src="images/icons/marketing.png">
+                <img src="images/icons/marketing.png" alt="">
                 <h6 class="services__description-item-header header-font">Marketing</h6>
-                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta ratione et vel architecto alias perferendis!</p>
+                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta
+                    ratione et vel architecto alias perferendis!</p>
             </div>
             <div class="services__description-item">
-                <img src="images/icons/technology.png">
+                <img src="images/icons/technology.png" alt="">
                 <h6 class="services__description-item-header header-font">Technology</h6>
-                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta ratione et vel architecto alias perferendis!</p>
+                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta
+                    ratione et vel architecto alias perferendis!</p>
             </div>
             <div class="services__description-item">
-                <img src="images/icons/ecommerce.png">
+                <img src="images/icons/ecommerce.png" alt="">
                 <h6 class="services__description-item-header header-font">eCommerce</h6>
-                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta ratione et vel architecto alias perferendis!</p>
+                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta
+                    ratione et vel architecto alias perferendis!</p>
             </div>
             <div class="services__description-item">
-                <img src="images/icons/branding.png">
+                <img src="images/icons/branding.png" alt="">
                 <h6 class="services__description-item-header header-font">Branding</h6>
-                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta ratione et vel architecto alias perferendis!</p>
+                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta
+                    ratione et vel architecto alias perferendis!</p>
             </div>
             <div class="services__description-item">
-                <img src="images/icons/seo.png">
+                <img src="images/icons/seo.png" alt="">
                 <h6 class="services__description-item-header header-font">SEO Identity</h6>
-                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta ratione et vel architecto alias perferendis!</p>
+                <p class="services__description-item-text">Lorem, ipsum dolor sit amet consectetur. Ea unde, soluta
+                    ratione et vel architecto alias perferendis!</p>
             </div>
-
-
         </div>
-
-</section>
+    </section>
+    <div class="gallery__container">
+        <ul class="gallery">
+            <li class="gallery__list-item">
+                <div class="gallery_aspect-ratio">
+                <img class="gallery__image" src="images/gallery/1.jpg" alt="works">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery_aspect-ratio">
+                <img class="gallery__image" src="images/gallery/2.jpg" alt="works">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery_aspect-ratio">
+                <img class="gallery__image" src="images/gallery/3.jpg" alt="works">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery_aspect-ratio">
+                <img class="gallery__image" src="images/gallery/4.jpg" alt="works">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery_aspect-ratio">
+                <img class="gallery__image" src="images/gallery/5.jpg" alt="works">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery_aspect-ratio">
+                <img class="gallery__image" src="images/gallery/6.jpg" alt="works">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery_aspect-ratio">
+                <img class="gallery__image" src="images/gallery/7.jpg" alt="works">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery_aspect-ratio">
+                <img class="gallery__image" src="images/gallery/8.jpg" alt="works">
+                </div>
+            </li>
+        </ul>
+    </div>
 </body>
+
 </html>
