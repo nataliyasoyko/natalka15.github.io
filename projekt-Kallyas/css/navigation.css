@@ -103,7 +103,6 @@
     .navigation__item {
         margin-left: 0;
         list-style: none;
-        padding: 15px 30px;
         border-bottom: 1.2px rgba(190, 190, 190, 0.699) solid;
         ;
     }
@@ -133,6 +132,7 @@
     .navigation__item-link {
         color: rgb(190, 190, 190);
         display: block;
+        margin: 15px 30px;
     }
 
     .navigation__item:hover {
