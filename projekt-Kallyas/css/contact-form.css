@@ -1,0 +1,107 @@
+:root{
+    --button-concept-bckgColor-services-color: #fb414e;
+    --concept-bckg-services-color: #202b30;
+    --service-form-color: grey;
+    --main-banner-navigation-button-color: white;
+}
+.contact{
+    max-width: 880px;
+    margin: 100px auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-items{
+    width: calc(50% - 30px);
+}
+@media(max-width: 415px){
+    .contact-items{
+        width: calc(100% - 20px);
+    }
+}
+.contact__description{
+    text-align: end;
+    margin-right: 30px;
+}
+@media(max-width: 415px){
+    .contact__description{
+        text-align: center;
+        margin: 10px;
+    }
+}
+.contact__description-header{
+    color: var(--concept-bckg-services-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+@media(max-width: 415px){
+    .contact__description-header{
+    font-size: 35px;
+}}
+.contact__description-text{
+    color: var(--service-form-color);
+    line-height: 1.5;
+}
+.contact__form{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.contact-form-item-select{
+    border: 1px rgb(141, 141, 141) solid;
+    height: 45px;
+}
+.contact-form-item-label{
+    color: var(--service-form-color);
+    display: block;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+.contact__form-select--option{
+    font-size: 12px;
+}
+.contact__form-select{
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+}
+.contact-form-item{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    font-size: 12px;
+    height: 45px;
+}
+.contact-form-item::placeholder{
+    text-transform: uppercase;
+    vertical-align: top;
+    line-height: 0.9;
+}
+
+.contact-form-button, .contact__form-textarea{
+    margin: 10px;
+}
+.contact__form-textarea{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.contact__form-name, .contact-form-item-select, .contact__form-textarea, .contact-form-button{
+    width: calc(100% - 20px);
+}
+.contact__form-company, .contact__form-email{
+    width: calc(50% - 20px);
+}
+@media(max-width: 415px){
+    .contact__form-company, .contact__form-email{
+        width: calc(100% - 20px);
+    }
+}
+
+
+.contact-form-button{
+background: var(--button-concept-bckgColor-services-color);
+color: var(--main-banner-navigation-button-color);
+padding: 10px;
+border: none;
+}

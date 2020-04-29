@@ -18,51 +18,42 @@
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/contact-form.css">
 </head>
 
 <body>
     <div class="container">
         <nav class="navigation container--smaller">
-            <img class="navigation__logo" src="images/logo.png" alt="logo">
+            <a href="#home" ><img class="navigation__logo" src="images/logo.png" alt="logo"></a>
 
-            <ul class="navigation__items">
-                <li class="navigation__item"><a href="#" class="navigation__item-link">home</a></li>
-                <li class="navigation__item"><a href="services" class="navigation__item-link">services</a></li>
-                <li class="navigation__item"><a href="works" class="navigation__item-link">works</a></li>
-                <li class="navigation__item"><a href="contact" class="navigation__item-link">contact</a></li>
+            <ul class="navigation__items js-navigation-mobile">
+                <li class="navigation__item navigation__item-mobile">
+                    <div class="navigation__mobile-back">
+                        <div class="navigation__mobile-img">
+                            <a href="#" class="navigation__mobile-link-img">
+                                <img src="images/mobile-menu-back.png" alt="wróć do strony głównej"
+                                class="navigation__mobile-img-back">
+                            </a>
+                        </div>
+                        <div class="navigation__mobile--link-back">
+                            <a href="#" class="navigation__mobile-link-back">
+                                back
+                            </a>
+                        </div>
+                    </div>    
+                </li>
+                <li class="navigation__item "><a href="#home" class="navigation__item-link">home</a></li>
+                <li class="navigation__item "><a href="#services" class="navigation__item-link">services</a></li>
+                <li class="navigation__item "><a href="#works" class="navigation__item-link">works</a></li>
+                <li class="navigation__item "><a href="#contact" class="navigation__item-link">contact</a></li>
             </ul>
 
             <button class="navigation__button-mobile js-navigation__button-mobile"><img
                     class="navigation__button-mobile-img" src="images/navigation.svg"
                     alt="Otwórz/zamknij nawigację"></button>
-            <div class="js-navigation-mobile">
-                <div class="navigation__mobile-back">
-                    <div class="navigation__mobile-img-back">
-                        <img src="images/mobile-menu-back.png" alt="wróć do strony głównej"
-                            class="navigation__mobile-img-back">
-                    </div>
-                    <div class="navigation__mobile--link-back">
-                        <a href="#" class="navigation__mobile-link-back">
-                            back
-                        </a>
-                    </div>
-                </div>
-                <ul class="navigation__items-mobile">
-                    <li class="navigation__item-mobile navigation__item-mobile-home"><a href="#"
-                            class="navigation__item-link-mobile navigation__item-link-mobile-home">home</a></li>
-                    <li class="navigation__item-mobile"><a href="#services"
-                            class="navigation__item-link-mobile">services</a></li>
-                    <li class="navigation__item-mobile"><a href="works" class="navigation__item-link-mobile">works</a>
-                    </li>
-                    <li class="navigation__item-mobile"><a href="about-us" class="navigation__item-link-mobile">about
-                            us</a></li>
-                    <li class="navigation__item-mobile"><a href="contact"
-                            class="navigation__item-link-mobile">contact</a></li>
-                </ul>
-            </div>
         </nav>
         <script src="js/navigation.js"></script>
-        <section class="main-banner">
+        <section class="main-banner" id="home">
             <div class="main-banner__inner container--smaller">
                 <h1 class="main-banner__header header-font">helping business and companies innovate and transform
                 </h1>
@@ -74,7 +65,7 @@
                     </p>
                 </div>
                 <button class="main-banner__button main-banner__button-bckg">Start now</button>
-                <button class="main-banner__button">Our services</button>
+                <button class="main-banner__button"><a href="#services" class="main-banner__button-link">Our services</a></button>
             </div>
         </section>
         <section class="container-concept container--smaller">
@@ -104,7 +95,7 @@
             </div>
         </section>
     </div>
-    <section class="container--smaller services">
+    <section class="container--smaller services" id="services">
         <header class="services__header">
             <div class="services__header-subheader header-font" id="services">services</div>
             <h2 class="services__header-main-header header-font">Best services for <span
@@ -151,7 +142,7 @@
             </div>
         </div>
     </section>
-    <div class="gallery__container">
+    <section class="gallery__container" id="works">
         <ul class="gallery">
             <li class="gallery__list-item">
                 <div class="gallery_aspect-ratio">
@@ -194,7 +185,34 @@
                 </div>
             </li>
         </ul>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact__description contact-items">
+            <header class="contact__description-header header-font">
+                Want to have a professional project? Let's talk about it.
+            </header>
+            <p class="contact__description-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum nostrum ea, deleniti voluptate autem fugit voluptates laborum dicta.
+            </p> 
+            <p class="contact__description-text">  
+                 Quaerat rem molestias, accusamus itaque fugiat earum, voluptates animi natus  eligendi? Sit quia similique quas dolorem ullam vel ut eveniet modi ipsum!
+            </p>
+        </div>
+        <form class="contact__form contact-items">
+            <input name="name" class="contact__form-name contact-form-item" required placeholder="your name*">
+            <input name="company" class="contact__form-company contact-form-item" required placeholder="company name*">
+            <input type="email" name="email" class="contact__form-email contact-form-item" required placeholder="email address*">
+            <div class="contact-form-item contact-form-item-select">
+            <label for="selected" class= "contact-form-item-label">select services*</label>
+            <select class="contact__form-select" required id="selected"> 
+                <option class="contact__form-select--option" value="web-design">web-design</option>
+                <option class="contact__form-select--option" value="web-develop">web-develop</option>
+            </select>
     </div>
+            <textarea class="contact__form-textarea" placeholder="describe your project*" required rows="8"></textarea>
+            <button type="submit" class="contact-form-button">Submit</button>
+        </form>
+    </section>
 </body>
 
 </html>
