@@ -11,11 +11,16 @@
 
 @media(max-width: 880px) {
     .services {
-        margin: 150px auto 50px;
+        margin: 200px auto 50px;
+    }
+}
+@media(max-width: 768px) {
+    .services {
+        margin: 250px auto 50px;
     }
 }
 
-@media(max-width: 415px) {
+@media(max-width: 600px) {
     .services {
         margin: 850px auto 50px;
     }

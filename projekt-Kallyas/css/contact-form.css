@@ -13,10 +13,10 @@
 }
 
 .contact-items {
-    width: calc(50% - 30px);
+    width: calc(50% - 20px);
 }
 
-@media(max-width: 415px) {
+@media(max-width: 768px) {
     .contact-items {
         width: calc(100% - 20px);
     }
@@ -24,11 +24,10 @@
 
 .contact__description {
     text-align: end;
-    margin-right: 30px;
 }
-
-@media(max-width: 415px) {
+@media(max-width: 768px) {
     .contact__description {
+        margin-right: 15px;
         text-align: center;
         margin: 10px;
     }
@@ -40,9 +39,9 @@
     font-weight: bold;
 }
 
-@media(max-width: 415px) {
+@media(max-width: 768px) {
     .contact__description-header {
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
@@ -116,7 +115,7 @@
     width: calc(50% - 20px);
 }
 
-@media(max-width: 415px) {
+@media(max-width: 600px) {
 
     .contact__form-company,
     .contact__form-email {
