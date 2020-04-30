@@ -10,7 +10,7 @@
 
 .main-banner {
     display: flex;
-    height: 75%;
+    height: 85%;
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@
     text-transform: capitalize;
     font-size: 50px;
     font-weight: 900;
-    margin: 50px 0;
+    margin: 45px 0;
 }
 
 @media(max-width: 880px) {
