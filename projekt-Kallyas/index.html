@@ -205,10 +205,18 @@
             </p>
         </div>
         <form class="contact__form contact-items">
-            <input name="name" class="contact__form-name contact-form-item" required placeholder="your name*">
-            <input name="company" class="contact__form-company contact-form-item" required placeholder="company name*">
-            <input type="email" name="email" class="contact__form-email contact-form-item" required
-                placeholder="email address*">
+            <div class="contact-item-container">
+            <label class="contact-form-label">Name and surname</label>
+            <input name="name" class="contact__form-name contact-form-item" required >
+            </div>
+            <div class="contact-item-container-smaller">
+            <label for="company" class="contact-form-label">your company</label> 
+            <input id="company" name="company" class="contact__form-company contact-form-item" required >
+            </div>
+            <div class="contact-item-container-smaller">
+            <label class="contact-form-label">your email</label>
+            <input type="email" name="email" class="contact__form-email contact-form-item" required>
+            </div>
             <div class="contact-form-item contact-form-item-select">
                 <label for="selected" class="contact-form-item-label">select services*</label>
                 <select class="contact__form-select" required id="selected">
@@ -216,8 +224,11 @@
                     <option class="contact__form-select--option" value="web-develop">web-develop</option>
                 </select>
             </div>
-            <textarea class="contact__form-textarea" placeholder="describe your project*" required rows="8"></textarea>
-            <button type="submit" class="contact-form-button">Submit</button>
+            <div class="contact-item-container">
+             <label class="contact-form-label label-textarea" for="textarea">contact us</label> 
+             <textarea class="contact__form-textarea" id="textarea" required rows="8"></textarea>
+           </div>
+            <button type="submit" class="contact-form-button">Submit</button> 
         </form>
     </section>
 </body>
