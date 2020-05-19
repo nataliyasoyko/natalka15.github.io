@@ -5,7 +5,7 @@
 }
 
 .container-concept {
-    max-width: 880px;
+    max-width: 1200px;
     margin: -40px auto 20px;
     display: flex;
     position: relative;
@@ -20,8 +20,8 @@
 
 .concept__description {
     width: 33%;
-    margin-left: 40px;
-    padding: 30px 15px;
+    margin-left: 20px;
+    padding: 30px;
     background-color: var(--concept-bckg-services-color);
     color: var(--main-banner-navigation-button-color);
     transition: 0.3s;
@@ -34,9 +34,8 @@
 @media(max-width: 600px) {
     .concept__description {
         display: block;
-        width: 100%;
-        margin: 15px 0;
-        ;
+        width: 90%;
+        margin: 15px auto;
     }
 }
 

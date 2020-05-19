@@ -83,25 +83,17 @@
     }
 }
 
-.main-banner__container-text {
-    width: 600px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-@media(max-width: 415px) {
-    .main-banner__container-text {
-        width: 300px;
-    }
-}
-
 .main-banner__text {
     line-height: 1.5;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto
 }
 
 @media(max-width: 415px) {
     .main-banner__text {
-        padding: auto 10px;
+        margin: 15px 20px;
+        max-width: 300px;
     }
 }
 
